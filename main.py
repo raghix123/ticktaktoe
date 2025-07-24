@@ -4,12 +4,13 @@ from board import Board
 from bot import Bot
 from user import User
 from sbot import Sbot
+from gptbot import GPTBot
 
 def main():
     board = Board()
 
     player = User('X')
-    botY = Sbot('O')
+    botY = GPTBot('O')
 
     # while True:
     #     botX.play()
@@ -33,6 +34,7 @@ def main():
             quit()
         print("\n\n")
 
+print(prompt)
 
 if __name__ == '__main__':
     main()
