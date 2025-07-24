@@ -1,6 +1,6 @@
 import openai
 import re
-client = openai.OpenAI(api_key="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")  # Put your actual key here
+client = openai.OpenAI(api_key="sk-")  # Put your actual key here
 
 
 class GPTBot:
