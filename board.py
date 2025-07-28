@@ -10,7 +10,7 @@ class Board:
         self.grid = [' ',' ',' ',' ',' ',' ',' ',' ',' ',]
 
     def printBoard(self):
-        os.system('cls' if os.name == 'nt' else 'clear')
+        # os.system('cls' if os.name == 'nt' else 'clear')
         print("Current Board (left)     |   Position Key (right)\n")
 
         for row in range(3):

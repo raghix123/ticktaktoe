@@ -34,8 +34,6 @@ def main():
             quit()
         print("\n\n")
 
-print(prompt)
-
 if __name__ == '__main__':
     main()
 
