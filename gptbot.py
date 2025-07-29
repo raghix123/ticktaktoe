@@ -1,6 +1,6 @@
 import openai
 import re
-client = openai.OpenAI(api_key="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")  # Put your actual key here
+client = openai.OpenAI(api_key="")  # Put your actual key here
 
 
 
